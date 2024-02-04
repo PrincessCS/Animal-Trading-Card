@@ -6,7 +6,7 @@
 
 body{
    
-    background:#ffffff;
+    background:#000000;
     height: 100vh;
     background-repeat: no-repeat;
     
@@ -20,60 +20,84 @@ body{
 .card{
     background: linear-gradient(#daf786, #228b22);
     position: absolute;
-    top: 80%;
-    bottom:50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:400px;
-    height:600px;
+    width:350px;
+    height:550px;
     border-radius:12px;
-    box-shadow: 0px 10px 20px rgba(0,0,0,15);
+   
    
 }
 
 h1{
     text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 40px;
+    font-size:15px;
+    color:#ffffff;
+    margin-top: 50px;
     margin-left:40px;
    
-}
-
-p{
-    text-align: left;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left:20px;
-}
-
-
-
-
-
-img{
-    width:300px;
-    height:300px;
-    border-radius: 12px;
-    margin-top:20px;
-    margin-left: 48px;
-    
-}
-
-hr{
-    
-    margin-top:20px;
-    border-color:#000000;
-}
-
-figcaption{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:12px;
-    margin-top:20px;
-    margin-left:40px;
 }
 
 
 h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left:20px;
-    margin-top:50px;
+    font-size:18px;
+    margin-left:50px;
+    margin-top:2px;
+}
+
+p{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-left:50px;
+}
+
+
+
+.image_1{
+    width:30px;
+    height:30px;
+    margin-top:20px;
+    margin-left:300px;
+   
+    
+}
+
+
+.image_2{
+    width:200px;
+    height:200px;
+    border-radius: 100% 100% 50% 50%;
+    margin-top:20px;
+    margin-left: 70px;
+    
+}
+
+h4{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:8px;
+    margin-top:20px;
+    
+}
+
+
+
+figcaption{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:11px;
+    margin-top:40px;
+    margin-left:50px;
+
+}
+
+
+
+.card:hover{
+    background: linear-gradient(#daf786, #228b22);
+
 }
